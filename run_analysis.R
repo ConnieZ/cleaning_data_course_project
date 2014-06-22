@@ -1,8 +1,8 @@
 ##Script to clean up data in "Human Activity Recognition Using Smartphones Dataset"
 #by Kanstantsyia (Connie) Zabarouskaya
 
-##For this script to work properly, please place all the test and train files, 
-# as well as features.txt and activity_labels.txt, in your working directory 
+##For this script to work properly, copy and paste all the test and train files (from inside their folders), 
+# as well as features.txt and activity_labels.txt, into your working directory 
 # before executing this script
 
 # Create tables for the train data
