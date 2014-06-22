@@ -10,8 +10,8 @@ To read the file into R, please use read.table() function.
 This file contains the script to create the tidy data set
 and it also contains comments, because comments make it more readable
 
-For this script to work properly, please place all the test and train files, 
-as well as features.txt and activity_labels.txt, in your working directory 
+For this script to work properly, please copy and paste all the test and train files (from inside their folders), 
+as well as features.txt and activity_labels.txt, into your working directory 
 before executing this script.
 
 Create tables for the train data (X_train.txt, y_train.txt, subject_train.txt) 
@@ -75,70 +75,137 @@ which represents in fact a mean value of that standard deviation original value.
 
 ##Variable labels:
 "Subject" - variable identifying the volunteer who participated in the experiment
+
 "Activity" - type of activity the subject performed
+
 "Body Acceleration  Mean on X-axis" - Mean value of body acceleration signal on X-axis
+
 "Body Acceleration  Mean on Y-axis" - Mean value of body acceleration signal on Y-axis
+
 "Body Acceleration  Mean on Z-axis" - Mean value of body acceleration signal on Z-axis
+
 "Body Acceleration  Standard Deviation on X-axis" - Standard Deviation value of body acceleration signal on X-axis
+
 "Body Acceleration  Standard Deviation on Y-axis" - Standard Deviation value of body acceleration signal on Y-axis
+
 "Body Acceleration  Standard Deviation on Z-axis" - Standard Deviation value of body acceleration signal on Z-axis
+
 "Gravity Acceleration  Mean on X-axis" - Mean value of gravity acceleration signal on X-axis
+
 "Gravity Acceleration  Mean on Y-axis" - Mean value of gravity acceleration signal on Y-axis
+
 "Gravity Acceleration  Mean on Z-axis" - Mean value of gravity acceleration signal on Z-axis
+
 "Gravity Acceleration  Standard Deviation on X-axis" - Standard Deviation value of gravity acceleration signal on X-axis
+
 "Gravity Acceleration  Standard Deviation on Y-axis" - Standard Deviation value of gravity acceleration signal on Y-axis
+
 "Gravity Acceleration  Standard Deviation on Z-axis" - Standard Deviation value of gravity acceleration signal on Z-axis
+
 "Body Acceleration Jerk Mean on X-axis" - Mean value of Jerk signal on X-axis, a measurement derived from the body linear acceleration
+
 "Body Acceleration Jerk Mean on Y-axis" - Mean value of Jerk signal on Y-axis, a measurement derived from the body linear acceleration
+
 "Body Acceleration Jerk Mean on Z-axis" - Mean value of Jerk signal on Z-axis, a measurement derived from the body linear acceleration
+
 "Body Acceleration Jerk Standard Deviation on X-axis" - Standard Deviation value of Jerk signal on X-axis, a measurement derived from the body linear acceleration
+
 "Body Acceleration Jerk Standard Deviation on Y-axis" - Standard Deviation value of Jerk signal on Y-axis, a measurement derived from the body linear acceleration
+
 "Body Acceleration Jerk Standard Deviation on Z-axis" - Standard Deviation value of Jerk signal on Z-axis, a measurement derived from the body linear acceleration
+
 "Body Gyroscope Signal  Mean on X-axis" - Mean value of gyroscope signal of body angular velocity on X-axis
+
 "Body Gyroscope Signal  Mean on Y-axis" - Mean value of gyroscope signal of body angular velocity on Y-axis
+
 "Body Gyroscope Signal  Mean on Z-axis" - Mean value of gyroscope signal of body angular velocity on Z-axis
+
 "Body Gyroscope Signal  Standard Deviation on X-axis" - Standard Deviation value of gyroscope signal of body angular velocity on X-axis
+
 "Body Gyroscope Signal  Standard Deviation on Y-axis" - Standard Deviation value of gyroscope signal of body angular velocity on Y-axis
+
 "Body Gyroscope Signal  Standard Deviation on Z-axis" - Standard Deviation value of gyroscope signal of body angular velocity on Z-axis
+
 "Body Gyroscope Signal Jerk Mean on X-axis" - Mean value of Jerk signal on X-axis, a measurement derived from the body angular velocity (body gyroscope signal) 
+
 "Body Gyroscope Signal Jerk Mean on Y-axis" - Mean value of Jerk signal on Y-axis, a measurement derived from the body angular velocity (body gyroscope signal)
+
 "Body Gyroscope Signal Jerk Mean on Z-axis" - Mean value of Jerk signal on Z-axis, a measurement derived from the body angular velocity (body gyroscope signal)
+
 "Body Gyroscope Signal Jerk Standard Deviation on X-axis" Standard Deviation value of Jerk signal on X-axis, a measurement derived from the body angular velocity (body gyroscope signal) 
+
 "Body Gyroscope Signal Jerk Standard Deviation on Y-axis" Standard Deviation value of Jerk signal on Y-axis, a measurement derived from the body angular velocity (body gyroscope signal) 
+
 "Body Gyroscope Signal Jerk Standard Deviation on Z-axis" Standard Deviation value of Jerk signal on Z-axis, a measurement derived from the body angular velocity (body gyroscope signal) 
+
 "Body Acceleration  Magnitude Mean" - Mean value of magnitude of body acceleration signal calculated using the Euclidean norm 
+
 "Body Acceleration  Magnitude Standard Deviation" - Standard Deviation value of magnitude of body acceleration signal calculated using the Euclidean norm
+
 "Gravity Acceleration  Magnitude Mean" - Mean value of magnitude of gravity acceleration signal calculated using the Euclidean norm
+
 "Gravity Acceleration  Magnitude Standard Deviation" - Standard Deviation value of magnitude of gravity acceleration signal calculated using the Euclidean norm
+
 "Body Acceleration Jerk Magnitude Mean" - Mean value of Magnitude (calculated with Euclidean norm) of Jerk signal, a measurement derived from the body linear acceleration 
+
 "Body Acceleration Jerk Magnitude Standard Deviation" - Standard Deviation value of Magnitude (calculated with Euclidean norm) of Jerk signal, a measurement derived from the body linear acceleration 
+
 "Body Gyroscope Signal  Magnitude Mean" - Mean value of Magnitude (calculated with Euclidean norm) of gyroscope signal of body angular velocity
+
 "Body Gyroscope Signal  Magnitude Standard Deviation" - Standard Deviation value of Magnitude (calculated with Euclidean norm) of gyroscope signal of body angular velocity
+
 "Body Gyroscope Signal Jerk Magnitude Mean" - Mean value of Magnitude (calculated with Euclidean norm) of Jerk signal, a measurement derived from the body angular velocity
+
 "Body Gyroscope Signal Jerk Magnitude Standard Deviation" - Standard Deviation value of Magnitude (calculated with Euclidean norm) of Jerk signal, a measurement derived from the body angular velocity
+
 "FFT Body Acceleration  Mean on X-axis" - Mean value of the result of Fast Fourier Transform applied to body acceleration signal on X-axis
+
 "FFT Body Acceleration  Mean on Y-axis" - Mean value of the result of Fast Fourier Transform applied to body acceleration signal on Y-axis
+
 "FFT Body Acceleration  Mean on Z-axis" - Mean value of the result of Fast Fourier Transform applied to body acceleration signal on Z-axis
+
 "FFT Body Acceleration  Standard Deviation on X-axis" - Standard Deviation value of the result of Fast Fourier Transform applied to body acceleration signal on X-axis
+
 "FFT Body Acceleration  Standard Deviation on Y-axis" - Standard Deviation value of the result of Fast Fourier Transform applied to body acceleration signal on Y-axis
+
 "FFT Body Acceleration  Standard Deviation on Z-axis" - Standard Deviation value of the result of Fast Fourier Transform applied to body acceleration signal on Z-axis
+
 "FFT Body Acceleration Jerk Mean on X-axis" - Mean value of the result of Fast Fourier Transform applied to Jerk signal on X-axis, a measurement derived from the body linear acceleration
+
 "FFT Body Acceleration Jerk Mean on Y-axis" - Mean value of the result of Fast Fourier Transform applied to Jerk signal on Y-axis, a measurement derived from the body linear acceleration
+
 "FFT Body Acceleration Jerk Mean on Z-axis" - Mean value of the result of Fast Fourier Transform applied to Jerk signal on Z-axis, a measurement derived from the body linear acceleration
+
 "FFT Body Acceleration Jerk Standard Deviation on X-axis" - Standard Deviation value of the result of Fast Fourier Transform applied to Jerk signal on X-axis, a measurement derived from the body linear acceleration
+
 "FFT Body Acceleration Jerk Standard Deviation on Y-axis" - Standard Deviation value of the result of Fast Fourier Transform applied to Jerk signal on Y-axis, a measurement derived from the body linear acceleration
+
 "FFT Body Acceleration Jerk Standard Deviation on Z-axis" - Standard Deviation value of the result of Fast Fourier Transform applied to Jerk signal on Z-axis, a measurement derived from the body linear acceleration
+
 "FFT Body Gyroscope Signal  Mean on X-axis" - Mean value of the result of Fast Fourier Transform applied to gyroscope signal of body angular velocity on X-axis
+
 "FFT Body Gyroscope Signal  Mean on Y-axis" - Mean value of the result of Fast Fourier Transform applied to gyroscope signal of body angular velocity on Y-axis
+
 "FFT Body Gyroscope Signal  Mean on Z-axis" - Mean value of the result of Fast Fourier Transform applied to gyroscope signal of body angular velocity on Z-axis
+
 "FFT Body Gyroscope Signal  Standard Deviation on X-axis" - Standard Deviation value of the result of Fast Fourier Transform applied to gyroscope signal of body angular velocity on X-axis
+
 "FFT Body Gyroscope Signal  Standard Deviation on Y-axis" - Standard Deviation value of the result of Fast Fourier Transform applied to gyroscope signal of body angular velocity on Y-axis
+
 "FFT Body Gyroscope Signal  Standard Deviation on Z-axis" - Standard Deviation value of the result of Fast Fourier Transform applied to gyroscope signal of body angular velocity on Z-axis
+
 "FFT Body Acceleration  Magnitude Mean" - Mean value of the result of Fast Fourier Transform applied to magnitude of body acceleration signal calculated using the Euclidean norm 
-"FFT Body Acceleration  Magnitude Standard Deviation" - Standard Deviation value of the result of Fast Fourier Transform applied to magnitude of body acceleration signal calculated using the Euclidean norm 
+
+"FFT Body Acceleration  Magnitude Standard Deviation" - Standard Deviation value of the result of Fast Fourier Transform applied to magnitude of body acceleration signal calculated using the Euclidean norm
+
 "FFT Body Acceleration Jerk Magnitude Mean" - Mean value of the result of Fast Fourier Transform applied to magnitude (calculated with Euclidean norm) of Jerk signal, a measurement derived from the body linear acceleration 
+
 "FFT Body Acceleration Jerk Magnitude Standard Deviation" - Standard Deviation value of the result of Fast Fourier Transform applied to magnitude (calculated with Euclidean norm) of Jerk signal, a measurement derived from the body linear acceleration 
+
 "FFT Body Gyroscope Signal  Magnitude Mean" - Mean value of the result of Fast Fourier Transform applied to magnitude (calculated with Euclidean norm) of gyroscope signal of body angular velocity
+
 "FFT Body Gyroscope Signal  Magnitude Standard Deviation" - Standard Deviation value of the result of Fast Fourier Transform applied to magnitude (calculated with Euclidean norm) of gyroscope signal of body angular velocity
+
 "FFT Body Gyroscope Signal Jerk Magnitude Mean" - Mean value of the result of Fast Fourier Transform applied to magnitude (calculated with Euclidean norm) of Jerk signal, a measurement derived from the body angular velocity
+
 "FFT Body Gyroscope Signal Jerk Magnitude Standard Deviation" - Standard Deviation value of the result of Fast Fourier Transform applied to magnitude (calculated with Euclidean norm) of Jerk signal, a measurement derived from the body angular velocity
